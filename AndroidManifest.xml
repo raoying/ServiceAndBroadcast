@@ -23,6 +23,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.lesson2.SettingsActivity"></activity>
+        <service android:name="CounterService"></service>
+        <receiver android:name="CounterBroadcastReceiver"></receiver>
     </application>
 
 </manifest>
